@@ -11,8 +11,18 @@
 
 
     <FrameLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        >
+        <fragment
+            android:id="@+id/main_info_fragment"
+            class="com.example.hello.fragment.MainInfoFragment"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"/>
+    </FrameLayout>
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
         <androidx.appcompat.widget.Toolbar
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
